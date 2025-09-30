@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnav Jain - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Vanta background -->
+  <div id="vanta-bg" aria-hidden="true"></div>
+
+  <main>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Arnav_photo.jpg" alt="Arnav Jain" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Arnav Jain">Arnav Jain</h1>
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn type="button" aria-expanded="false">
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/arnav-jain-21289a249/" class="social-link" target="_blank"
+            rel="noopener">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://github.com/Arnavjain2503" class="social-link" target="_blank" rel="noopener">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.hackerrank.com/profile/jarnav953" class="social-link" target="_blank" rel="noopener">
+            <ion-icon name="snow-outline"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://leetcode.com/u/Arnav_Jain2503/" class="social-link" target="_blank" rel="noopener">
+            <ion-icon name="color-filter-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <address>jarnav2503@gmail.com</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+916377852020" class="contact-link">+91 6377852020</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-03-25">March 25, 2004</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Pune, Maharashtra, India</address>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar" role="navigation">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link type="button">About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link type="button">Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link type="button">Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link type="button">Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link type="button">Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m <strong>Arnav Jain</strong>, a passionate Software Engineer
+            currently pursuing my <strong>B.Tech in Computer Science and Engineering</strong> at
+            Symbiosis International University (CGPA: 8.18/10).
+          </p>
+          <p>
+            I specialize in building scalable software solutions using Java, MERN stack, and Android development.
+            With hands-on experience in DevOps, CI/CD pipelines, and cloud deployment, I thrive on creating
+            efficient, reliable, and user-friendly applications.
+          </p>
+          <p>
+            Beyond coding, I actively explore AI, ML, and new-age technologies while contributing
+            to impactful projects and open-source communities.
+          </p>
+        </section>
+
+        <!-- What I'm doing -->
+        <section class="service">
+          <h3 class="h3 service-title">Skills</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-java.png" alt="Java" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+                <p class="service-item-text">Java, C/C++, Python, Kotlin</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web Development" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, Tailwind, Bootstrap,
+                  Figma</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="App Development" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+                <p class="service-item-text">Android (Java, Kotlin), Retrofit, Jetpack Compose</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-medal.svg" alt="DevOps" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps & Tools</h4>
+                <p class="service-item-text">Git/GitHub, Docker, Jenkins, MySQL, MongoDB, Postman, JDBC, Android Studio
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Certificates -->
+        <section class="service">
+          <h3 class="h3 service-title">Certificates</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=33E0F29F5F2031B343981BC5C39D9E6ED4BFC34C7DDE47BF1AEBFB84E87FCB89"
+                  target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Oracle Cloud Infrastructure 2025 Certified Foundations Associate</h4>
+                <p class="service-item-text">Scaler</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://unstop.com/certificate-preview/60f51040-e394-4614-b7a7-241e3d273652?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-flipkart-grid-60-software-development-track"
+                  target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Flipkart Grid 6.0 Level 1: E-Commerce</h4>
+                <p class="service-item-text">Unstop</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://badgr.com/public/assertions/9iQT5BNqRcaaj8rlb_HlNw?identity__email=jarnav953@gmail.com"
+                  target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Postman API Fundamentals Student Expert</h4>
+                <p class="service-item-text">Postman</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://moonshot.scaler.com/s/sl/IOQ16gFHwi" target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AWS Free Course</h4>
+                <p class="service-item-text">Scaler</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://moonshot.scaler.com/s/li/r-rxRXIa2v" target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Course- Master the Fundamentals and Beyond</h4>
+                <p class="service-item-text">Scaler</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://moonshot.scaler.com/s/li/OfljnIM9GW" target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Object Oriented Programming in Java Course</h4>
+                <p class="service-item-text">Scaler</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <a href="https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/e0e2b75e-6ce0-4ffe-bb87-22ff74a9379d-arnav-jain-56e0df32-243d-4739-ad18-580d1278bf40-certificate.pdf"
+                  target="_blank" rel="noopener">
+                  <img src="./assets/images/link.png" alt="link icon" width="40" />
+                </a>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MongoDB for SQL Expert</h4>
+                <p class="service-item-text">MongoDB</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Symbiosis International University, Pune</h4>
+              <span>B.Tech (2022-2026)</span>
+              <span>Computer Science and Engineering (2022 — 2026)</span>
+              <span>CGPA: 8.18/10</span>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Emmanuel Sr. Sec. School</h4>
+              <span>12th</span>
+              <span>Percentage: 81%</span>
+            </li>
+             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Emmanuel Sr. Sec. School</h4>
+              <span>10th</span>
+              <span>Percentage: 91%</span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Summer Intern - Backend Developer</h4>
+              <span>Celebal Technologies (June 2025 — July 2025)</span>
+              <p class="timeline-text">
+                Built and optimized RESTful APIs with JWT authentication, bcrypt hashing, and RBAC, strengthening
+                system security and reliability by 55%. Enhanced middleware and global error handling, while designing
+                MongoDB schemas with Mongoose, improving data consistency and backend reliability by 35%.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full-Stack Developer Intern</h4>
+              <span>Project Human City (Oct 2024 — Dec 2024)</span>
+              <p class="timeline-text">
+                Upgraded user authentication features including Login/Signup using the MERN stack, reducing login
+                issues by 25% and making onboarding smoother. Rebuilt critical frontend and backend workflows,
+                streamlining navigation and improving user retention by 25%.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Programming Languages</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java | Python | C/C++</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">Android development</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Android Studio | Java | Kotlin | Retrofit | Jetpack Compose</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">Web Development</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML | CSS | JS | React | Figma | NodeJS | ExpressJS | Tailwind CSS | Bootstrap | Figma
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">Database</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL | MongoDB</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">DevOps</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git/GitHub | Docker | AWS | Jenkins | Bash Scripting | Linux</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">Other Tools</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DBMS | DSA | JDBC | OS | CN | VSCode | Postman | Arduino</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PROJECTS -->
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn type="button">All</button></li>
+            <li class="filter-item"><button data-filter-btn type="button">Java</button></li>
+            <li class="filter-item"><button data-filter-btn type="button">Android development</button></li>
+            <li class="filter-item"><button data-filter-btn type="button">Web development</button></li>
+            <li class="filter-item"><button data-filter-btn type="button">AIML</button></li>
+            <li class="filter-item"><button data-filter-btn type="button">Other</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select type="button" aria-expanded="false">
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+
+            <ul class="select-list" role="listbox">
+              <li class="select-item"><button data-select-item type="button">All</button></li>
+              <li class="select-item"><button data-select-item type="button">Java</button></li>
+              <li class="select-item"><button data-select-item type="button">Android development</button></li>
+              <li class="select-item"><button data-select-item type="button">Web development</button></li>
+              <li class="select-item"><button data-select-item type="button">AIML</button></li>
+              <li class="select-item"><button data-select-item type="button">Other</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="java">
+              <a href="https://github.com/Arnavjain2503/Campus-Nexus" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/fa959f33d82ad2c9aaaff246a0874116c9f1c6b6a0e186b2619925b3af4942ca/Arnavjain2503/Campus-Nexus"
+                    alt="Campus Nexus" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Campus Nexus</h3>
+                <p class="project-category">Java</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/Arnavjain2503/EYESEEU" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/cfd1b970c5950a550092fe49dec97edb0d315cb9df85d6939854403a7cea4b96/Arnavjain2503/EYESEEU"
+                    alt="EYESEEU - AI Powered Exam Proctoring Platform" loading="lazy" />
+                </figure>
+                <h3 class="project-title">EYESEEU - AI Powered Exam Proctoring Platform</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="android development">
+              <a href="https://github.com/Arnavjain2503/Sudoku-Sage" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/4798b4148301ffcc226e823953c17591703d74c2d6bffba2bd0bd2fd505ad8ec/Arnavjain2503/Sudoku-Sage"
+                    alt="Sudoku Sage" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Sudoku Sage</h3>
+                <p class="project-category">Android development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aiml">
+              <a href="https://github.com/Arnavjain2503/Demographic-Location-Surface-Water-Mapping" target="_blank"
+                rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/f3cececf80b79bbba455fed4b21c72d56425eb5daab21c864d709d160d7fd865/Arnavjain2503/Demographic-Location-Surface-Water-Mapping"
+                    alt="Demographic Location Water Surface Mapping" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Demographic Location Water Surface Mapping</h3>
+                <p class="project-category">AIML</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="other">
+              <a href="https://github.com/Arnavjain2503/Travel-Management-System" target="_blank" rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/07e47fc05b0c6bdc6fa01be774da72578a5be1d6293cc45bb25c0020156ecea4/Arnavjain2503/Travel-Management-System"
+                    alt="Travel Management System" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Travel Management System</h3>
+                <p class="project-category">C++</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="other">
+              <a href="https://github.com/Arnavjain2503/Line-Following_Obstacle_Avoidance_Robot" target="_blank"
+                rel="noopener">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img
+                    src="https://opengraph.githubassets.com/9fc3feb5bf98c73c5b3e97ef650e10e5c173ce62ec0286ca689663e4b2edf80a/Arnavjain2503/Line-Following_Obstacle_Avoidance_Robot"
+                    alt="Line-Following Obstacle Avoidance Robot" loading="lazy" />
+                </figure>
+                <h3 class="project-title">Line-Following Obstacle Avoidance Robot</h3>
+                <p class="project-category">Arduino</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- BLOG (placeholder to demo nav) -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+        <p>Coming soon…</p>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30259.68841273239!2d73.75749119999999!3d18.5532416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bea1358892db%3A0xefb9ace4ab08b485!2sOxford%20Paradise%20D%20Building!5e0!3m2!1sen!2sin!4v1727792670250!5m2!1sen!2sin"
+              width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Arnav location"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form novalidate>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Overlay for modals -->
+  <div data-overlay></div>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Vanta.js + Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Init Vanta after DOM is ready -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.VANTA && document.getElementById("vanta-bg")) {
+        VANTA.NET({
+          el: "#vanta-bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          color: 0xffff00,
+          backgroundColor: 0x111111,
+          blurFactor: 0.6,
+          speed: 1.5,
+          zoom: 0.8,
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
